@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Aug 23, 2022 at 04:00 PM
+-- Generation Time: Aug 25, 2022 at 06:09 PM
 -- Server version: 10.4.24-MariaDB
 -- PHP Version: 7.4.29
 
@@ -71,9 +71,11 @@ INSERT INTO `news` (`n_id`, `n_title`, `n_descr`, `n_date`, `n_category`, `n_sta
 (18, 'Delete ', 'Delete funksiyasini yazdiq.', '2022-08-11', 'Education', 'Active', 'eee25ff9145583288aa4fca43fa32cf7.jpg', '.jpg', '2022-08-11 17:25:59', 0, '', 0),
 (20, 'Filarmoniya', 'Bu pdate sekilsizdir', '2022-08-11', 'Technology', 'Active', '44a65c359172d754eee69718b5c09bf5.jpg', '.jpg', '2022-08-15 17:20:37', 0, '', 0),
 (22, 'asd asd', 'as das dasd asdas dsa d', '2022-08-15', 'Education', 'Active', '0211ea80db974c908ceabed847468b38.jpg', '.jpg', '2022-08-15 17:40:01', 0, '', 0),
-(24, 'sd ad a', 'sd asda dsad as d', '2022-08-16', 'Sport', 'Active', '8bf809778c955aec3d10cb081a0352cd.jpg', '.jpg', '2022-08-15 17:42:51', 0, '', 0),
+(24, 'Stimul', 'Stimul kursunda web proqramlasdirma derslerinde Nermin ve Ferid istirak etdiler.', '2022-08-25', 'Education', 'Active', '8bf809778c955aec3d10cb081a0352cd.jpg', '.jpg', '2022-08-25 17:58:20', 0, '', 0),
 (25, 'sa dsd', 'a sdsa das d', '2022-08-15', 'Technology', 'Active', '', '', '2022-08-15 17:43:57', 0, '', 0),
-(26, 'a sdsa ds d', 'asd SD ASD SAD aD as d', '2022-08-15', 'Sport', 'Active', '72e03db883404f0a83cc7f502a4c5c98.jpg', '.jpg', '2022-08-15 17:44:13', 0, '', 0);
+(26, 'a sdsa ds d', 'asd SD ASD SAD aD as d', '2022-08-15', 'Sport', 'Active', '72e03db883404f0a83cc7f502a4c5c98.jpg', '.jpg', '2022-08-15 17:44:13', 0, '', 0),
+(27, 'csv xvc ', 'ascdvfcg bvn ', '2022-08-25', 'Education', 'Active', 'b14520f963995d75a32daa7804620ce0.jpg', '.jpg', '2022-08-25 16:36:04', 0, '', 0),
+(33, 'Feridin tapsirigi', 'Ferid maraqli sual verdi  ve biz onu cavablandirdiq. Insert meselesi.', '2022-08-25', 'Education', 'Active', '0d23d13ac4001d7e2ba4196d01b1f57f.jpg', '.jpg', '2022-08-25 17:59:26', 0, '', 0);
 
 --
 -- Indexes for dumped tables
@@ -105,7 +107,7 @@ ALTER TABLE `admin`
 -- AUTO_INCREMENT for table `news`
 --
 ALTER TABLE `news`
-  MODIFY `n_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=27;
+  MODIFY `n_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=34;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
