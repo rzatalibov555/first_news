@@ -54,7 +54,8 @@ $route['index']     = 'User_controller/index';
 $route['about']     = 'User_controller/about';
 $route['contact']   = 'User_controller/contact';
 $route['news']      = 'User_controller/news';
-$route['news_single'] = 'User_controller/news_single';
+$route['news_single/(.*)'] = 'User_controller/news_single/$1';
+$route['category/(.*)'] = 'User_controller/category/$1';
 
 
 

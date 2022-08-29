@@ -1,4 +1,4 @@
-    <?php $this->load->view('user/includes/headerStyle'); ?>
+<?php $this->load->view('user/includes/headerStyle'); ?>
     <?php $this->load->view('user/includes/preloader'); ?>
     <?php $this->load->view('user/includes/navbar'); ?>
 
@@ -10,7 +10,7 @@
           <div class="row">
             <div class="col-lg-12">
               <div class="text-content">
-                <h4>Recent Posts</h4>
+                <h4>Category</h4>
                 <h2>Our Recent Blog Entries</h2>
               </div>
             </div>

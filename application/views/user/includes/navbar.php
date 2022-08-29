@@ -16,11 +16,9 @@
                 <a class="nav-link" href="<?php echo base_url('about'); ?>">Haqqımızda</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="<?php echo base_url('news'); ?>">Kateqorİya</a>
+                <a class="nav-link" href="<?php echo base_url('news'); ?>">Xəbərlər</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="<?php echo base_url('news_single'); ?>">Ətraflı</a>
-              </li>
+             
               <li class="nav-item">
                 <a class="nav-link" href="<?php echo base_url('contact'); ?>">Əlaqə</a>
               </li>
