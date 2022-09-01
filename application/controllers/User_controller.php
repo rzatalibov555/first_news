@@ -2,8 +2,21 @@
 
 class User_controller extends CI_controller{
     
+    public function __construct()
+    {
+        parent:: __construct();
+        $this->lang->load('message','english');
+    }
+
     public function index(){
-        $data['get_news_for_slider'] = $this->db->limit(10)->order_by('n_id','DESC')->get('news')->result_array();
+        $data['get_news_for_slider'] = $this->db
+        // ->where()
+        ->limit(10)
+        ->order_by('n_id','DESC')
+        ->get('news')
+        ->result_array();
+
+
         $data['get_news'] = $this->db->limit(3)->order_by('n_id','DESC')->get('news')->result_array();
         $data['get_news_limit'] = $this->db->limit(4,3)->order_by('n_id','DESC')->get('news')->result_array();
         

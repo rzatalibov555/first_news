@@ -45,7 +45,7 @@
 
                     <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2" style="display:inline-block;float:left;margin-right:5px;">
                         <label for="date">Date</label>
-                        <input type="date" name="date" id="date" class="form-control">
+                        <input type="datetime-local" name="date" id="date" class="form-control">
                         <br>
                     </div>
 

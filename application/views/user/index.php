@@ -31,11 +31,11 @@
                     <span><?php echo $item['n_category']; ?></span>
                   </div>
                   <a href="<?php echo base_url('news_single/' . $item['n_id']); ?>">
-                    <h4 style="color: purple; background:white; padding:10px;"><?php echo $item['n_title']; ?></h4>
+                    <h4 style="color: white; background:#82828287; padding:10px;"><?php echo $item['n_title']; ?></h4>
                   </a>
                   <ul class="post-info">
 
-                    <li><a style="color: blue;" href="<?php echo base_url('news_single/' . $item['n_id']); ?>"><?php echo date("d-m-Y", strtotime($item['n_date'])); ?></a></li>
+                    <!-- <li><a style="color: blue;" href="<?php echo base_url('news_single/' . $item['n_id']); ?>"><?php echo date("d-m-Y", strtotime($item['n_date'])); ?></a></li> -->
 
                   </ul>
                 </div>
@@ -136,7 +136,7 @@
                 <div class="col-lg-12">
                   <div class="sidebar-item recent-posts">
                     <div class="sidebar-heading">
-                      <h2>Diger Xeberler</h2>
+                      <h2><?php echo $this->lang->line('other_news'); ?></h2>
                     </div>
                     <div class="content">
                       <ul>

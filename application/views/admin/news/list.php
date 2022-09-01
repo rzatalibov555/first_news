@@ -50,7 +50,7 @@
                                     <!-- <td><?php // echo $get_all_news_key['n_descr'];  
                                                 ?></td> -->
                                     <td class="txt-oflo"><?php echo $get_all_news_key['n_category'];  ?></td>
-                                    <td class="txt-oflo"><?php echo $get_all_news_key['n_date'];  ?></td>
+                                    <td class="txt-oflo"><?php echo date("d-m-Y H:i", strtotime($get_all_news_key['n_date']));  ?></td>
                                     <td class="txt-oflo"><?php echo $get_all_news_key['n_status'];  ?></td>
                                     <td class="txt-oflo">
                                         <?php if ($get_all_news_key['n_img']) { ?>
